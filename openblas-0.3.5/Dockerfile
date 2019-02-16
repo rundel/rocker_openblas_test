@@ -4,4 +4,4 @@ RUN install2.r \
   RhpcBLASctl \
   spBayes
   
-COPY ../*.R ../data.rds /
+COPY *.R data.rds /
